@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3eae3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Oxygen", sans-serif;
+}
+
+.container {
+  width: 650px;
+  max-height: 400px;
+  height: 100vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.leftSection {
+  max-width: 300px;
+  width: 100vw;
+  background-image: url("img/image-product-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.rightSection {
+  max-width: 350px;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* rightSection content start */
+
+.rightSection .content {
+  margin-left: 30px;
+}
+
+.rightSection .info {
+  letter-spacing: 3px;
+  opacity: 0.6;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.rightSection .title {
+  font-weight: bolder;
+  width: 200px;
+}
+
+.rightSection button {
+  padding: 12px 70px;
+  text-align: center;
+  background-color: rgb(61, 129, 104);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 40px;
+  transition: 0.5s;
+}
+.rightSection button:hover {
+  background-color: rgb(11, 91, 61);
+}
+/* rightSection content end */
