@@ -16,10 +16,10 @@ body {
 }
 
 .container {
-  width: 650px;
-  max-height: 400px;
+  width: 600px;
+  max-height: 500px;
   height: 100vh;
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   flex-direction: row;
 }
@@ -40,7 +40,6 @@ body {
 }
 
 /* rightSection content start */
-
 .rightSection .content {
   margin-left: 30px;
 }
@@ -50,25 +49,63 @@ body {
   opacity: 0.6;
   font-size: 14px;
   padding: 10px 0;
+  margin-top: 20px;
 }
 
-.rightSection .title {
-  font-weight: bolder;
+.rightSection .content .title {
+  font-weight: 900;
   width: 200px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
-.rightSection button {
-  padding: 12px 70px;
+.rightSection .text {
+  opacity: 0.8;
+  margin: 10px 0;
+  padding-right: 80px;
+}
+
+.rightSection .priceSection {
+  margin-top: 30px;
+}
+
+.rightSection .priceSection .price {
+  font-size: 35px;
+}
+
+.rightSection .previousPrice {
+  text-decoration: line-through;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+
+.rightSection .btn {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  margin-left: -10px;
+}
+
+.rightSection .btn button {
+  width: 250px;
+  height: 45px;
   text-align: center;
   background-color: rgb(61, 129, 104);
   color: white;
   border: none;
-  border-radius: 5px;
-  margin-top: 20px;
-  margin-left: 40px;
   transition: 0.5s;
+  border-radius: 10px;
+  font-size: 14px;
 }
+
+.rightSection .btn button i {
+  margin-right: 10px;
+}
+
 .rightSection button:hover {
   background-color: rgb(11, 91, 61);
 }
+
 /* rightSection content end */
