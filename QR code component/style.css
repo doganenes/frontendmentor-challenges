@@ -51,6 +51,7 @@ i {
   width: 230px;
   margin-left: 30px;
   text-indent: 10px;
+  font-weight: bold;
 }
 
 .content p {
@@ -61,3 +62,41 @@ i {
   font-size: 14px;
   text-align: center;
 }
+
+/* media queries start */
+
+@media (max-width: 768px) {
+  .container {
+    height: 80vh;
+    width: 50vh;
+    position: relative;
+  }
+  .code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-right: 5px;
+    width: 45vh;
+    height: 50vh;
+  }
+  .code-container i {
+    font-size: 250px;
+  }
+  .content {
+    margin-top: 400px;
+  }
+  .content h2 {
+    width: 250px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+  .content p {
+    width: 240px;
+    font-size: 16px;
+    margin-left: 55px;
+  }
+}
+/* media queries end */
