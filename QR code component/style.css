@@ -38,7 +38,7 @@ body {
   border-radius: 10px;
 }
 
-i {
+.code-container .material-icons {
   font-size: 180px;
   color: white;
 }
@@ -80,7 +80,7 @@ i {
     width: 45vh;
     height: 50vh;
   }
-  .code-container i {
+  .code-container .material-icons {
     font-size: 250px;
   }
   .content {
