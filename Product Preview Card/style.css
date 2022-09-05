@@ -65,7 +65,7 @@ body {
 }
 
 .rightSection .priceSection {
-  margin-top: 30px;
+  padding-top: 40px;
 }
 
 .rightSection .priceSection .price {
@@ -83,7 +83,7 @@ body {
 .rightSection .btn {
   display: flex;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 40px;
   margin-left: -10px;
 }
 
@@ -131,7 +131,7 @@ body {
     margin-top: 0.3rem;
     display: flex;
     margin-left: 1rem;
-    height: 15rem;
+    height: 14rem;
     background-image: url("img/image-product-mobile.jpg");
     background-size: cover;
     z-index: 10;
@@ -156,7 +156,7 @@ body {
   }
 
   .content {
-    margin-top: 1rem;
+    margin-top: .5rem;
     padding-left: 0.5rem;
     margin-bottom: 0.5rem;
   }
