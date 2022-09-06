@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* container start */
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.card {
+  width: 20rem;
+  height: 25rem;
+  border-radius: 0.15rem;
+}
+
+.card-1 {
+  background-color: #e28525;
+}
+.card-2 {
+  background-color: #036b77;
+}
+.card-3 {
+  background-color: #00403f;
+}
+
+.card-header {
+  margin: 2rem 0 2rem 2rem;
+  color: white;
+}
+
+.card-icon img {
+  width: 3.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  opacity: 0.8;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.card-body {
+  margin: 2rem 0.5rem 2rem 2rem;
+}
+
+.card-body .text {
+  color: white;
+  opacity: 0.8;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+
+.button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  letter-spacing: 1.5px;
+  margin-top: 5rem;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: white;
+  opacity: .8px;
+  outline: 1.5px solid white;
+}
+
+.button1 {
+  color: #e28525;
+}
+.button2 {
+  color: #036b77;
+}
+.button3 {
+  color: #00403f;
+}
+/* container end */
+
+/* media queries start */
+@media (max-width: 768px) {
+  .container {
+    height: 100vh;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+/* media queries end */
