@@ -2,7 +2,7 @@
 | :---: | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 |  01   | [Product Preview Card](https://github.com/doganenes/frontendmentor-challenges/tree/main/Product%20Preview%20Card)     | [Live Demo](https://product-preview-card-project.vercel.app/)   |
 |  02   | [QR code component](https://github.com/doganenes/frontendmentor-challenges/tree/main/QR%20code%20component)           | [Live Demo](https://qr-code-component-livedemo.netlify.app/)    |
-|  03   | [3 Column Preview Card](https://github.com/doganenes/frontendmentor-challenges/tree/main/3%20Column%20Preview%20Card) | [Live Demo](https://product-preview-card-livedemo.netlify.app/) |
+|  03   | [3 Column Preview Card](https://github.com/doganenes/frontendmentor-challenges/tree/main/3%20Column%20Preview%20Card) | [Live Demo](https://column-preview-card-livedemo.netlify.app/) |
 
 # Frontend Mentor 
 
