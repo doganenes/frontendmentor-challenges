@@ -2,13 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-header{
-    background-color: #3EBFFF;
+header {
+  background-color: #3ebfff;
 }
 
-.cursor-pointer{
-    cursor: pointer;
+.cursor-pointer {
+  cursor: pointer;
 }
 
+.content-1 {
+  width: 100vw;
+}
+
+.img-header {
+  display: block;
+}
+
+.img-1{
+  height: 100vh;
+object-fit: cover;
+}
