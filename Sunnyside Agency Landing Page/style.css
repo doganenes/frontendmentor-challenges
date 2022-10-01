@@ -21,7 +21,24 @@ header {
   display: block;
 }
 
-.img-1{
+.img-1 {
   height: 100vh;
-object-fit: cover;
+  object-fit: cover;
+}
+
+.img-div-1 {
+  background-image: url("img/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 100vh;
+  display: inline;
+}
+.img-div-2 {
+  background-image: url("img/desktop/image-photography.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 100vh;
+  display: inline;
 }
