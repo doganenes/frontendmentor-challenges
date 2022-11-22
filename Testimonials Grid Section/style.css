@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 60rem;
+  max-width: 75rem;
   margin: 100px auto;
   padding: 1.5rem;
   display: grid;
